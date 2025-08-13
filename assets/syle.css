@@ -1,5 +1,5 @@
 
-import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+@ import url ('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
 
 :root{
   --text-color: #ffffff;
@@ -11,17 +11,18 @@ body {
   background: url(img/bg-desktop-blue.webp);
   font-family: Tomorrow;
 }
-.cartao __conteuo {
+.cartao__conteudo {
   background-color: ver(--card-front-color);
  text-align: center;
   height: 100%;
   transform-style: preserve-3d;
   transition: tranform 300ms ease-in-out
-
-#container {
-  display: flex;
-  flex-wrap: wrap;
-}
+    {
+      #contaier 
+display:flex;
+fle-wrap:wrap
+    }
+ 
 .cartao {
   margin: 1rem 1rem;
   height: 20rem;
@@ -42,11 +43,11 @@ body {
   font-size: 1vw;
   backface-visibility: hidden;
 }
-.cartao-conteudo-repota
-.cartao-conteudo-respota{
+.cartao__conteudo__reposta, 
+.cartao__ conteudo__resposta{
   backface-visibility: height;
 }
-
+.cartao__conteudo__pergunta p {
   color: var(--text-color);
   font-weight: 500;
 }
@@ -59,9 +60,9 @@ body {
   font-weight: 700;
 }
 .carto:hover.cartao__conteudo{
- transform:rotateY(1800deg)
+ transform:rotateY(180deg);
+font-weight:700;
 }
-footer {
   background-color: black;
   color: white;
   position: fixed;
